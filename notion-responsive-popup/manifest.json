@@ -4,11 +4,11 @@
   "version": "1.1",
   "description": "Opens Notion with a single click in Tab or Popup.",
   "manifest_version": 2,
-  "icons": {
+  "icons": [{
     "128": "icon_128.png",
     "16": "icon_16.png",
     "48": "icon_48.png"
-  },
+}],
 
   "options_page": "options.html",
   "permissions": ["tabs", "webNavigation", "https://www.notion.so/*"],
