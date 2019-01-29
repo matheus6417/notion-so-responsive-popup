@@ -1,17 +1,16 @@
 {
-
-  "name": "Notion",
-  "version": "1.1",
-  "description": "Opens Notion with a single click in Tab or Popup.",
+  "name": "Notion++ Open in responsive popup",
+  "version": "1.5",
+  "description": "(Unnoficial) Opens Notion with a single click in Tab or Popup.",
   "manifest_version": 2,
-  "icons": [{
+  "icons": {
     "128": "icon_128.png",
     "16": "icon_16.png",
     "48": "icon_48.png"
-}],
+  },
 
   "options_page": "options.html",
-  "permissions": ["tabs", "webNavigation", "https://www.notion.so/*"],
+  "permissions": ["tabs", "webNavigation", "https://www.notion.so/*", "contextMenus"],
   "background": {
     "page": "background.html",
     "persistent": false
@@ -22,6 +21,6 @@
   "content_scripts": [{
     "matches": ["https://www.notion.so/*"],
     "js": ["content-script.js"],
-    "css" : ["content-style.css"]
+    "css": ["content-style.css"]
   }]
 }

@@ -8,11 +8,15 @@ function save_options() {
   var status = document.getElementById("status");
   status.innerHTML = "Options Saved.";
 
-  setTimeout(function() {closeTab()}, 500);
+  setTimeout(function () {
+    closeTab()
+  }, 500);
 }
 
-function closeTab(){
-  chrome.tabs.getCurrent(function(tab) { chrome.tabs.remove(tab.id, function() { }); });
+function closeTab() {
+  chrome.tabs.getCurrent(function (tab) {
+    chrome.tabs.remove(tab.id, function () {});
+  });
 }
 
 // Restores select box state to saved value from localStorage.
