@@ -3,9 +3,13 @@
  }
 
  @media (max-width: 700px) {
-     div.notion-page-content {
-         padding: 0 20px 0 40px !important;
-     }
+     div.notion-page-content,
+     div[style="padding-bottom: 12px; padding-left: 96px; padding-right: 96px;"],
+    .notion-selectable div[style="height: 42px; padding-left: 96px; padding-right: 96px; flex-shrink: 0; z-index: 1; overflow: visible;"],
+    .notion-scroller div[style="position: relative; float: left; min-width: 100%; padding-bottom: 12px; padding-left: 96px; padding-right: 96px;"],
+    .notion-scroller div[style="padding-left: 96px; padding-right: 96px; float: left; min-width: 100%;"] {
+        padding: 0 20px 0 40px!important;
+    }
 
 
      .notion-selectable[style="width: 100%; align-self: center; margin-top: 1px; margin-bottom: 1px;"]>div {
