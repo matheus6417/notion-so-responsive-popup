@@ -1,7 +1,7 @@
 {
-  "name": "Notion++ Open in responsive popup",
+  "name": "Notion++, Responsiveness, Faster Transitions, Compact",
   "version": "1.6",
-  "description": "(Unnoficial) Opens Notion with a single click in Tab or Popup.",
+  "description": "The Notion.so missing features in only 29kb.",
   "manifest_version": 2,
   "icons": {
     "128": "icon_128.png",
