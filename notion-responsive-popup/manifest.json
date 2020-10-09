@@ -1,7 +1,7 @@
 {
-  "name": "Notion++, Responsiveness, Faster Transitions",
+  "name": "Open Notion.so in a Responsive Popup, Faster Transitions",
   "version": "1.6",
-  "description": "The Notion.so missing features in only 29kb.",
+  "description": "Have a better notion.so experience, less transitions and responsiveness",
   "manifest_version": 2,
   "icons": {
     "128": "icon_128.png",
